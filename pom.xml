@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.developerworld.commons</groupId>
 		<artifactId>dw-commons-parent</artifactId>
-		<version>0.0.1</version>
+		<version>0.0.2</version>
 	</parent>
 
 	<artifactId>dw-commons-validatecode</artifactId>
@@ -12,33 +12,6 @@
 	<name>dw-commons-validatecode</name>
 	<version>0.0.2-SNAPSHOT</version>
 	<description>验证码工具包</description>
-
-	<dependencies>
-		<dependency>
-			<groupId>org.developerworld.commons</groupId>
-			<artifactId>dw-commons-lang</artifactId>
-			<version>0.0.1</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>commons-lang</groupId>
-			<artifactId>commons-lang</artifactId>
-			<version>2.6</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>commons-logging</groupId>
-			<artifactId>commons-logging</artifactId>
-			<version>1.2</version>
-			<scope>provided</scope>
-		</dependency>
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>servlet-api</artifactId>
-			<version>2.4</version>
-			<scope>provided</scope>
-		</dependency>
-	</dependencies>
 	
 	<!-- scm配置 -->
 	<scm>
@@ -46,4 +19,25 @@
 		<developerConnection>${scm.developerConnection}</developerConnection>
 		<url>${scm.url}</url>
 	</scm>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.developerworld.commons</groupId>
+			<artifactId>dw-commons-lang</artifactId>
+			<version>0.0.2</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 </project>
