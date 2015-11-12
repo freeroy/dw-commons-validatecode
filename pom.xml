@@ -11,7 +11,7 @@
 	<artifactId>dw-commons-validatecode</artifactId>
 	<packaging>jar</packaging>
 	<name>dw-commons-validatecode</name>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.3</version>
 	<description>验证码工具包</description>
 	
 	<!-- scm配置 -->
